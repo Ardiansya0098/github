@@ -17,12 +17,13 @@
 ```
 ## Program 
 
-![[belajar_dasar_html.jpg.jpg]]
+
+![belajar dasar html](belajar_dasar_html.jpg)
 
 
 ## Hasil
 
-![[hasil_belajar_dasar_html.jpg.jpg]]
+![hslbelajar_dasar_html](hslbelajar_dasar_html.jpg)
 
 
 # Anatomi Elemen HTML 
@@ -31,11 +32,12 @@
  Anatomi elemen HTML merujuk pada struktur dasar atau komponen-komponen yang membentuk suatu elemen dalam HTML. Anatomi ini mencakup beberapa elemen utama seperti tag pembuka, tag penutup, atribut tag, isi/konten tag, dan tag-tag dasar.
 
  Elemen adalah suatu kesatuan dari sebuah tag yang dimulai dari tag pembuka hingga ke tag penutup. Elemen HTML secara garis besar terdiri atas tiga bagian yaitu tag pembuka konten/isi. 
- 
-![[link_ig.jpg.jpg]]
 
 
-![[link ig.jpg.jpg]]
+![link ig](link.ig.jpg)
+
+
+![link ig](hsl_link_ig.jpg)
 
 
 - tag `<a>` adalah elemen dasar untuk membuat link di HTML dan termasuk di tag pembuka.
@@ -107,7 +109,7 @@ Contoh penggunaan heading dalam HTML:
 
 6. `<h6>`  Heading Level 6 Digunakan untuk judul tingkat kepentingan terendah dalam sebuah dokumen.
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -124,9 +126,10 @@ Contoh penggunaan heading dalam HTML:
     </html>
 ```
 
-![[heading.jpg.jpg]]
+![heading](heading.jpg)
 
-![[hasil_heading.jpg.jpg]]
+
+![hasil heading](hasil_heading.jpg)
 
 
 ### Paragraf
@@ -144,7 +147,7 @@ Contoh penggunaan heading dalam HTML:
 
 6. `<hr>`Horizontal Rule: Membuat garis horizontal untuk memisahkan konten.                                                              Dengan menggunakan tag tersebut, Anda dapat mengatur tampilan dan struktur teks pada halaman web dengan berbagai gaya dan pemisahan visual.
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -171,11 +174,10 @@ Contoh penggunaan heading dalam HTML:
 ```
 
 
-![[paragraf.jpeg 1.jpg]]
+![paragraf](paragraf.jpg)
 
 
-![[hasil_paragraf.jpeg.jpg]]
-
+![hasil paragraf](hasil_paragraf.jpg)
 
 #### Tag Align
 
@@ -196,7 +198,7 @@ Gerhana Matahari total telah dihitung jauh di masa depan, dan gerhana matahari y
 Bulan akan menjadi sangat besar karena jaraknya yang relatif dekat dan Matahari akan menjadi sangat kecil karena jaraknya yang relatif jauh. Semua hal ini akan menyebabkan gerhana total pada tahun 2186 menjadi sangat lama.
 `</p>`
 
-```
+```html
 <h3>Belajar menggunakan elemen tag html </h3>
 <p align="left">
 Menurut perhitungan NASA, durasi gerhana Matahari terlama yang pernah tercatat adalah 7 menit 28 detik, yang terjadi pada tanggal 15 Juni 743 SM di Samudera Hindia lepas pantai Kenya dan Somalia di Afrika.
@@ -216,13 +218,17 @@ Bulan akan menjadi sangat besar karena jaraknya yang relatif dekat dan Matahari 
 
 
 
-![[align.jpeg 1.jpg]]
-![[hasil_align.jpeg 1.jpg]]
+![align](align.jpg)
+
+
+
+![hasil](hsl_align.jpg)
+
 
 #### Komentar
  Html juga mempunyai tag khusus untuk komentar. Untuk membuat komentar di HTML, kita menggunakan awalan `"<!--"` dan penutup `"-->"`. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -236,9 +242,11 @@ Bulan akan menjadi sangat besar karena jaraknya yang relatif dekat dan Matahari 
 ```
 
 
-![[Komentar.jpeg 1.jpg]]
+![Komentar](komentar.jpg)
 
-![[hasil_komentar.jpeg 1.jpg]]
+
+![hasil_komentar](hsl_komentar.jpg)
+
 
 #### List
 List adalah fungsi HTML yang digunakan untuk menampilkan daftar dari sesuatu. Dalam HTML tag list terdiri dari dua jenis ``<ol>``
@@ -247,7 +255,7 @@ ordered list (berurutan) dan `<ul>` unordered list (tidak berurutan). Ordered li
 
 >[!Faq]- Untuk menampilkan list dalam HTML dapat digunakan tag `<li>`...`</li>` namun perlu menyisipkan elemen `<ol>`...`</ol>` atau `<ul>`...`</ul>` kedalam elemen `<li>`...`</li>` membuat daftar list.
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -280,9 +288,11 @@ ordered list (berurutan) dan `<ul>` unordered list (tidak berurutan). Ordered li
    </html>
 ```
 
-![[list.jpeg 1.jpg]]
 
-![[hasil_list.jpeg.jpg]]
+![list.jpg](list.jpg)
+
+
+![hsl_list.jpg](hsl_list.jpg)
 
 
 #### Link
@@ -293,7 +303,7 @@ Link dapat ditemukan di hampir semua halaman web. Link/tautan memungkinkan sebua
 
 Atribut penting lainnya dari tag ``<a>`` adalah target. Atribut target menentukan tempat untuk membuka dokumen yang ditautkan. Atribut ==target== memiliki beberapa nilai salah satunya `_blank` yang berfungsi untuk membuka tautan di tab baru.
 
-```
+```html
 <!DOCTPE html>
 <html>
   <head>
@@ -310,9 +320,11 @@ Atribut penting lainnya dari tag ``<a>`` adalah target. Atribut target menentuka
 </html>
 ```
 
-![[link_jpeg.jpg]]
+![link.jpg](link.jpg)
 
-![[hasil_link.jpeg.jpg]]
+
+![hasil_link.jpg](hasil_link.jpg)
+
 
 #### Multimedia 
 ##### Gambar
@@ -328,7 +340,7 @@ Dalam tag `<img>` terdapat juga atribut width dan height untuk mengatur ukuran g
 - untuk menampilkan gambar dari internet carilah link gambar yang akan di tampilkan lalu memasukkan dalam atribut src contohnya: 
 https://namasitus.com/gambar.jpg
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -341,9 +353,10 @@ https://namasitus.com/gambar.jpg
 ```
 
 
-![[gambar.jpeg.jpg]]
+![gambar.jpg](gambar.jpg)
 
-![[hasil_gambar.jpeg.jpg]]
+
+![[hsl_gmbr.jpg](hsl_gmbr.jpg)
 
 
 
@@ -353,7 +366,7 @@ Dalam HTML, video didefinisikan dengan tag ``<video>``, tag `video` adalahtag ya
 Dalam tag `<video>` terdapat juga atribut `controls` yang digunakan untuk menambahkan kontrol pemutaran standar seperti play, pause, volume, dan juga di tag `<video` ada atribut `width` dan `height` yang digunakan untuk mengatur ukuran video, pada versi HTML 5 standar saruan ukuran video adalah pixel, dan juga di dalamnya juga terdapat atribut `type` yang digunakan untuk menentukan tipe MIME (Multipurpose Internet Mail Extensions) dari file video yang disematkan.
 
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -369,9 +382,10 @@ Dalam tag `<video>` terdapat juga atribut `controls` yang digunakan untuk menamb
 ```
 
 
-![[video.jpeg.jpg]]
+![video.jpg](video.jpg)
 
-![[video_web.jpeg.jpg]]
+
+![hsl_video.jpg](hsl_video.jpg)
 
 
 ##### Audio
@@ -379,7 +393,7 @@ Di HTML, tag `<audio>` digunakan untuk menyematkan dan memainkan file audio di h
 
 Seperti yang telah dibahas sebelumnya bahwasanya tag `<audio>` merupakan bagian fitur HTML5 untuk menampilkan audio asli di halaman web tanpa memerlukan Flash sebagaimana pada HTML versi 4. Yang penting untuk diatur pada tag ini adalah atribut src yang berfungsi untuk mengidentifikasi sumber media. Selain itu, terdapat pula atribut controls agar pengguna dapat memutar dan menjeda media.
 
-```
+```html
  <!DOCTYPE html>
  <html>
   <head>
@@ -395,9 +409,10 @@ Seperti yang telah dibahas sebelumnya bahwasanya tag `<audio>` merupakan bagian 
 ```
 
 
-![[audio.jpg.jpg]]
+![audio.jpg](audio.jpg)
 
-![[hasil_audio.jpg.jpg]]
+
+![hsl_audio.jpg](hsl_audio.jpg)
 
 
 ##### Iframe
@@ -410,7 +425,7 @@ Dalam tag `iframe` ada beberapa atribut yang penting seperti :
 - `src`, untuk mencari sumber halaman html atau web yang akan ditampilkan di dalam frame
 - **`width`** dan **`height`**, untuk mengatur ukuran panjang dan lebar dari frame.
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -426,9 +441,10 @@ Dalam tag `iframe` ada beberapa atribut yang penting seperti :
 ```
 
 
-![[iframe..jpg.jpg]]
+![iframe.jpg](iframe.jpg)
 
-![[iframe_hasil.jpg.jpg]]
+
+![iframe_hsl.jpg](iframe_hsl.jpg)
 
 
 ### Tabel
@@ -439,7 +455,7 @@ Tabel dalam HTML didefinisikan dengan tag `<table>`.
 - Header (judul) tabel didefinisikan dengan tag `<th>`. Secara default, header tebael memiliki teks tebal dan berada ditengah.
 - Data tabel/sel didefinisikan dengan tag `<td>`. Karena sel merupakan bagian terkecil dari tabel maka dari itu tag ini selalu berada didalam tag `<tr>`.
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -466,9 +482,10 @@ Tabel dalam HTML didefinisikan dengan tag `<table>`.
 ```
 
 
-![[tabel1.jpg.jpg]]
+![tabel1](tabel1.jpg)
 
-![[tabel1_hasil.jpg.jpg]]
+
+![hasil tbl1](tabel1_hsl.jpg)
 
 
 >[!Faq]- Perhatikan bahwa pada tag `<table>` terdapat sebuah atribut `border`. Atribut `border` digunakan untuk memberikan nilai garis tepi dari tabel. Nilai ini dalam ukuran pixel. `border="1"`, berarti kita menginstruksikan kepada web browser bahwa tabel tersebut akan memiliki garis tepi sebesar 1 pixel. Jika tidak ditambahkan, secara default tabel tidak memiliki garis tepi.
@@ -485,7 +502,7 @@ Selain itu, terdapat pula beberapa atribut tabel yang paling penting untuk diket
 
 - `align` berfungsi untuk mengatur perataan teks pada tabel. Nilai atribut yang dapat diberikan yaitu `left` untuk perataan teks ke kiri, `right` untuk perataan teks ke kanan, dan center untuk perataan teks ke tengah.
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -525,17 +542,18 @@ Selain itu, terdapat pula beberapa atribut tabel yang paling penting untuk diket
 ```
 
 
-![[tabel2.jpg.jpg]]
+![tabel2](tabel2.jpg)
 
-![[tabel2_hasil.jpg.jpg]]
+
+![hsl2 tabel](tabel2_hsl.jpg)
 
 
 >[!Faq]-  Perhatikan pada konten elemen `<td>` yang berisi `<rezkyawalya>` hanya terdapat satu elemen `<td>` disana. Hal ini dikarenakan konten elemen `<td>` sebelumnya yaitu `SMKN 7 Makassar` dan `-` pada data `Condrado Alain Sharon` mengandung atribut `rowspan`dengan nilai `2` yang secara otomatis mengisi data dibawahnya yakni data `Rezky Awalya`. Nilai `2`
  menunjukkan bahwa ada dua baris yang digabungkan menjadi satu konsep ini juga sama dengan apa yang terjadi pada `<th rowspan="2">Nama</th>` dan `<th colspan="2">Asal institusi</th>`.
 
 #### Tabel Nama
-#### Struktur
-```
+##### Struktur
+```html
 <!DOCTYPE html>
 <head>
   <title>Tabel</title>
@@ -561,7 +579,7 @@ Selain itu, terdapat pula beberapa atribut tabel yang paling penting untuk diket
 ```
 
 
-#### Analisis
+##### Analisis
 
 1. Deklarasi HTML: Dimulai dengan `<!DOCTYPE html>`, ini adalah deklarasi untuk menandakan bahwa dokumen ini adalah dokumen HTML.
 
@@ -579,16 +597,17 @@ Selain itu, terdapat pula beberapa atribut tabel yang paling penting untuk diket
 
 8. Tag Penutup: Program ditutup dengan tag `</html>`.
 
-#### Contoh
+##### Contoh
 
-![[tabel_tgs.jpg 1.jpg]]
-
-
-#### Hasil
-![[tabel_tgs_hasil.jpg 1.jpg]]
+![tabel_color1.jpg](tabel_color1.jpg)
 
 
-#### Kesimpulan 
+##### Hasil
+
+![hsl_tabel_color1.jpg](hsl_tabel_color1.jpg)
+
+
+##### Kesimpulan 
 
 1. **Informasi Siswa**: Tabel memiliki dua baris, masing-masing mewakili informasi siswa. Baris pertama mencakup nama, sekolah menengah, dan universitas. Baris kedua mencakup dua siswa lainnya beserta informasi sekolahnya.
 
@@ -606,9 +625,9 @@ Selain itu, terdapat pula beberapa atribut tabel yang paling penting untuk diket
 
 
 #### Tabel Hari dan Bulan
-#### Struktur
+##### Struktur
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -638,7 +657,7 @@ Selain itu, terdapat pula beberapa atribut tabel yang paling penting untuk diket
     </html>
 ```
 
-#### Analisis
+##### Analisis
 - <!DOCTYPE html>: Mendefinisikan jenis dokumen HTML.
 
 - `<html>`: Menandai awal dari dokumen HTML.
@@ -676,15 +695,15 @@ Selain itu, terdapat pula beberapa atribut tabel yang paling penting untuk diket
 - `</body>`: Menandai akhir dari bagian konten dokumen.
 
 - `</html>`: Menandai akhir dari dokumen HTML.
-#### Contoh
+##### Contoh
 
-![[tbl_nama_hari_bulan.jpg.jpg]]
+![tebel_nm_bln_hari.jpg](tabel_nm_bln_hari.jpg)
 
-#### Hasil
+##### Hasil
 
-![[tbl_hasil_nama_hari_bulan.jpg.jpg]]
+![tabel_hasil_nm_hari_bln.jpg](tabel_hasil_nm_hari_bln.jpg)
 
-#### Kesimpulan
+##### Kesimpulan
 1. Tabel memiliki dua baris `(<tr>)`: Baris pertama untuk header dan baris kedua untuk data.
 
 2. Header pertama `(<th colspan="2" bgcolor="green">Nama Hari</th>)` mencakup dua kolom dengan latar belakang hijau, memberikan judul "Nama Hari".
@@ -773,7 +792,7 @@ Atribut yang dapat digunakan untuk mengatur kuran dari `textarea` yaitu `rows` u
 5. **Button**
 Elemen `<button>` yang berada di dalam sebuah `form` akan otomatis dianggap sama fungsinya seperti `<input type="submit">`. Jika ingin membuat tombol biasa yang tidak men-*submit* `<form>` dapat dilakukan dengan menambahkan atribut `type="button"`.
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -842,9 +861,10 @@ Elemen `<button>` yang berada di dalam sebuah `form` akan otomatis dianggap sama
 ```
 
 
-![[formulir.jpg.jpg]]
+![formulir](formulir.jpg)
 
-![[formulir_hasil.jpg.jpg]]
+![hasil](hsl_formulir.jpg)
+
 
 Beberapa atribut yang digunakan pada contoh di atas yang perlu untuk diperjelas yaitu sebagai berikut:
 
@@ -882,8 +902,8 @@ https://jagongoding.com/web/php/web-dinamis/membuat-dan-menangani-form/https://j
 ## DIV & SPAN
 ### DIV
 
-
+`<div>` adalah elemen HTML yang digunakan untuk membuat suatu bagian atau blok di dalam halaman web. Ini adalah elemen pembungkus yang tidak memiliki arti khusus dalam halaman web, tetapi dapat digunakan untuk menata dan mengelompokkan konten bersama-sama dalam suatu blok. Elemen `<div>` sering digunakan bersama dengan CSS untuk mengatur tata letak dan gaya halaman web.
 
 ### SPAN
 
-
+Di dalam konteks web development, elemen `<span>` digunakan sebagai kontainer inline untuk teks dan elemen lainnya. Ini berarti `<span>` tidak mengubah alur atau tata letak alami teks di sekitarnya seperti halnya elemen blok seperti `<div>`. Elemen `<span>` sering digunakan bersama dengan CSS untuk memberikan gaya atau memberikan identifikasi khusus pada bagian-bagian kecil dari teks atau elemen lain di dalam dokumen HTML.
